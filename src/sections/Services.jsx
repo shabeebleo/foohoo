@@ -1,10 +1,14 @@
-
-import React from 'react'
-
+import React from "react";
+import { services } from "../constants";
+import ServiceCard from "../components/ServiceCard";
 function Services() {
   return (
-    <div>Services</div>
-  )
+    <section className="flex flex-wrap max-container justify-center  gap-9">
+      {services.map((service) => (
+        <ServiceCard key={service.label} {...service} />
+      ))}
+    </section>
+  );
 }
 
-export default Services
+export default Services;
