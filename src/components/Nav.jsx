@@ -3,7 +3,6 @@ import { headerLogo } from "../assets/images/";
 import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 function Nav() {
-  console.log(navLinks, "navLinksnavLinks");
   return (
     <header className=" padding-x py-8 absolute  z-10  w-full">
       <nav className="flex justify-between items-center  max-container">
