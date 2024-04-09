@@ -28,6 +28,7 @@ function SuperQuality() {
         <div className="mt-11">
           <Button label="view details" />
         </div>
+
       </div>
       <div className="flex-1 flex justify-center items-center">
         <img className="object-contain" src={shoe8} width={570} alt="shoe8" />
